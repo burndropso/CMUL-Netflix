@@ -1,0 +1,506 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_1",
+      "genre_ids": [
+        "Tecnologia",
+        "UX/UI",
+        "Frontend"
+      ],
+      "id": 4,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "es",
+      "original_name": "5.1 - Interface do utilizador",
+      "overview": "A interface do utilizador da Netflix destaca-se pela sua atratividade, simplicidade e facilidade de uso. A página inicial apresenta uma variedade de categorias baseadas em preferências pessoais, visualizações anteriores e tendências populares. As miniaturas dos títulos são exibidas de forma atraente, permitindo aos utilizadores uma rápida visão geral do conteúdo disponível.\n\nA experiência de utilizador (UX) da plataforma é projetada para uma navegação perfeita, com um layout limpo e intuitivo que permite aos subscritores localizar e desfrutar facilmente do conteúdo que pretendem assistir. O uso do scroll horizontal através de categorias e scroll vertical dentro de categorias reduz a carga cognitiva, garantindo uma experiência de navegação suave. Outra característica da sua UX, são as pré-visualizações de conteúdo e trailers. Quando os utilizadores passam o rato ou fazem o hover sobre um título, recebem um resumo da história, elenco e outras informações relevantes. Isso facilita a tomada de decisões informada e permite que os utilizadores “acertem” no conteúdo que realmente se alinha com as suas preferências. Também incorpora ativamente o feedback do utilizador para melhorar continuamente a sua plataforma. Recursos como o sistema de classificação, avaliações de utilizadores e o botão “saltar introdução” foram influenciados pelas preferências dos subscritores.",
+      "popularity": 2639.845,
+      "poster_path": "poster5_1",
+      "first_air_date": "2021-08-24",
+      "name": "La Casa de los Famosos",
+      "number_of_seasons": 4,
+      "vote_average": 6.1,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_2",
+      "genre_ids": [
+        "Tecnologia",
+        "Arquitetura"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.2 - Arquitetura da Plataforma",
+      "overview": "Antes da era da computação em nuvem, a Netflix contava com seus próprios centros de dados e servidores para armazenar e entregar seu conteúdo. Contudo, esse método enfrentava diversas limitações e desafios. Em primeiro lugar, era custoso e demorado adquirir, manter e atualizar tanto o hardware quanto o software. Além disso, era complicado prever e lidar com os picos de tráfego e procura, especialmente durante os horários de pico ou lançamentos de novos conteúdos. Por fim, havia o risco associado à dependência de um único ou poucos locais para o serviço, já que qualquer interrupção ou falha poderia afetar milhões de utilizadores.\n\nAtualmente, a Netflix faz uso de duas clouds: AWS e Open Connect. Estas duas clouds trabalham em conjunto formando a “espinha dorsal” da Netflix e ambas são as principais responsáveis por fornecer a melhor qualidade de vídeo aos subscritores.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 8.0,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_2_1",
+      "genre_ids": [
+        "Tecnologia",
+        "Arquitetura",
+        "Redes"
+      ],
+      "id": 2,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.2.1 - Content Delivery Network",
+      "overview": "Segundo a Sandvine, em 2023, a Netflix representa cerca de 15% de todo tráfego global da internet [1], destacando a importância da sua Rede de Distribuição de Conteúdo (CDN). Uma CDN é uma rede de servidores distribuídos geograficamente que trabalham em conjunto para fornecer uma entrega rápida de conteúdo na internet. A abordagem única da Netflix para a sua CDN, conhecida como Netflix Open Connect, é projetada especificamente para entregar o seu tráfego de vídeo. Os Open Connect Appliances (OCAs), são servidores físicos que armazenam e servem o conteúdo da Netflix, estão estrategicamente localizados em pontos de troca de internet e dentro das redes dos provedores de serviços de internet (ISPs) em todo o mundo. Quando um subscritor da Netflix começa a assistir um programa ou filme, o vídeo é entregue a partir de uma OCA que proporcionará a melhor experiência. Esta gestão eficiente do tráfego de vídeo garante que a stream chegue aos utilizadores para que possam ver os vídeos com o mínimo de buffering e a melhor qualidade possível. À medida que o tráfego da internet continua a crescer, a importância de CDNs eficientes e escaláveis como o Open Connect só se tornará mais crítica.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_2_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 8.5,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_2_2",
+      "genre_ids": [
+        "Tecnologia",
+        "Arquitetura",
+        "Estratégia Empresarial"
+      ],
+      "id": 3,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.2.2 - Arquitetura Assente em Microsserviços",
+      "overview": "A Netflix utilizou uma arquitetura de microsserviços para projetar o seu serviço baseado em cloud. Uma arquitetura de microsserviços é uma forma de construir um sistema complexo dividindo-o em componentes mais pequenos e independentes, chamados microsserviços. Cada microsserviço desempenha uma função específica e comunica com outros através de APIs. Por exemplo, a Netflix tem microsserviços para autenticação de utilizadores, recomendação, codificação de vídeo, reprodução e faturação. Ao utilizar microsserviços, a Netflix conseguiu obter várias vantagens. Primeiro, consegue melhorar a sua agilidade e velocidade ao desenvolver, testar e implementar cada microsserviço de forma independente e contínua. Segundo, consegue melhorar a sua escalabilidade e desempenho ao alocar e ajustar os recursos para cada microsserviço de acordo com as suas necessidades. Terceiro, consegue garantir a sua resiliência e tolerância a falhas ao isolar e recuperar cada microsserviço em caso de erro ou falha. Contudo, a transição para estes novos métodos não foi repentina. Ao longo dos anos, a Netflix teve de reinventar o seu pipeline, mais concretamente, do “Reloaded” para o “Cosmos”. \n\nA partir de 2014, a Netflix desenvolveu e operou o pipeline de processamento de vídeo na sua plataforma de terceira geração, “Reloaded”. O Reloaded foi bem arquitetado, proporcionando boa estabilidade, escalabilidade e um nível razoável de flexibilidade. Serviu como base para inúmeras inovações de codificação desenvolvidas pela equipa da Netflix.\nNo entanto, com o tempo, à medida que as funcionalidades cresceram, a taxa de contribuições de novas funcionalidades no Reloaded diminuiu, evidenciando as sua limitações:\n    Funcionalidade acoplada, dificultando a criação de novas funcionalidades devido à complexidade na integração e configuração de módulos. Por exemplo, o cálculo da qualidade do vídeo era realizado dentro do módulo do codificador de vídeo, tornando difícil a recalcular a qualidade sem uma nova codificação.\n    Estrutura monolítica, onde os módulos estavam frequentemente localizados no mesmo repositório, resultava em reutilização não intencional de código e acoplamento apertado entre os módulos, reduzindo a velocidade de desenvolvimento.\n    Ciclos de lançamento longos, devido à implantação conjunta de todos os módulos, o que aumentava o risco de falhas e dificultava a depuração e o rollback. Isso levava à abordagem do 'comboio de lançamento', onde as atualizações eram agrupadas a cada duas semanas e passavam por testes exaustivos, levando até quatro semanas para chegar à produção.\n\nComo resposta, em 2018, a Netflix começou a desenvolver a plataforma da próxima geração, o Cosmos. Além da escalabilidade e estabilidade que os desenvolvedores já desfrutavam no Reloaded, o Cosmos visava aumentar a flexibilidade do sistema e a velocidade de desenvolvimento de funcionalidades. Para alcançar isso, o Cosmos foi desenvolvido como uma plataforma de computação para microsserviços.\n\nNuma arquitetura de microsserviços, saber delinear limites e definir cada serviço é crucial. No pipeline, os ativos de media passam por diversas etapas de processamento, como análises e transformações, que agora foram agrupadas em diferentes áreas para criar os microsserviços necessários. Por exemplo, no módulo de codificação de vídeo do Reloaded, há cinco etapas:\n\n    1.Divisão do vídeo de entrada em pequenos segmentos.\n    2.Codificação independente de cada segmento.\n    3.Cálculo da pontuação de qualidade (VMAF) de cada segmento.\n    4.Montagem de todos os segmentos codificados em um único vídeo.\n    5.Agregação das pontuações de qualidade de todos os segmentos.\n\nJá para o Cosmos, foram criados dois microsserviços independentes: o Serviço de Codificação de Vídeo (VES) e o Serviço de Qualidade de Vídeo (VQS), cada um com uma função independente/desacoplada.\nOs detalhes de implementação, como a codificação fragmentada e a montagem, foram abstraídos para o VES. Além disso, foram identificadas funcionalidades e delimitações de serviço para a criação dos seguintes serviços de vídeo:\n\n    Serviço de Inspeção de Vídeo (VIS): Este serviço realiza várias inspeções num ficheiro de vídeo e extrai metadados para serviços downstream.\nServiço de Análise de Complexidade (CAS): Este serviço analisa a complexidade do conteúdo de um ficheiro de vídeo e guarda os resultados num banco de dados para reutilização.\n\n    Serviço de Geração de Escada (LGS): Este serviço cria uma “escada” de bitrate para uma determinada família de codificação (H.264, AV1, etc.).\n\n    Serviço de Codificação de Vídeo (VES): Este serviço cria um vídeo codificado a partir de um ficheiro de vídeo e um codec escolhido.\n\n    Serviço de Validação de Vídeo (VVS): Este serviço analisa um vídeo codificado e compara os resultados com as expectativas previstas.\n\n    Serviço de Qualidade de Vídeo (VQS): Este serviço recebe o vídeo codificado e o original e calcula a pontuação de qualidade (VMAF) do vídeo codificado.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_2_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 8.6,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_2_3",
+      "genre_ids": [
+        "Tecnologia",
+        "Arquitetura",
+        "Backend"
+      ],
+      "id": 4,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "es",
+      "original_name": "5.2.3 - Arquitetura do Backend",
+      "overview": "Como uma das principais impulsionadoras da arquitetura de microsserviços, a Netflix tem uma infraestrutura complexa no seu backend, com imensos componentes, para conseguir suportar os milhões de utilizadores nos mais de 190 países em que opera. Eis alguns dos componentes relevantes:\n\nELB e Load Balancing:\nO Cliente envia um pedido de Reprodução para um backend em execução na AWS. A Netflix usa o serviço Elastic Load Balancer (ELB) da Amazon para direcionar o tráfego para os seus serviços. O ELB usa uma arquitetura de dois níveis para equilibrar a procura entre diferentes zonas e o DNS-based round-robin scheduling garante uma distribuição equitativa de pedidos.\n\nAPI Gateway  com ZUUL:\nO ELB transmite o pedido para a API Gateway, onde a Netflix utiliza o ZUUL. Em momentos do AWS EC2, o ZUUL é o gatekeeper para o encaminhamento dinâmico, monitorização e segurança. As suas propriedades de encaminhamento são baseadas em queries, URL e o path, garantindo uma gestão eficiente dos pedidos.\n\nResilience4j:\nAbordando dependências e potenciais falhas, a Netflix recorre ao Resilience4j, uma poderosa biblioteca que isola microsserviços. Minimiza falhas isolando pontos de acesso entre serviços, garantindo mecanismos de falha rápida, monitorização em tempo real e recuperação rápida.\n\n Stream processing pipeline:\nAs atividades do utilizador e os dados de histórico passam pelo pipeline de processamento da stream. Transformando-se numa experiência de visualização personalizada, estes dados são a espinha dorsal para fazer recomendações de filmes personalizadas, e até selecionar a arte dos posters mais captivante para cada utilizador, garantindo-lhes uma experiência única e envolvente.\n\nApache Cassandra para DB:\nCassandra é uma base de dados NoSQL open source, projetado para lidar com grandes quantidades de dados em muitos servidores comuns.\nA Netflix guarda todos os tipos de dados na Cassandra, incluindo todas as métricas de atividades recolhidas dos utilizadores.\n\nOutras ferramentas de Processamento de Big Data:\nPara além da Cassandra, a Netflix usa muitas outras ferramentas de processamento de big data, como Apache Kafka para sistemas distribuídos , Apache Chukwe para recolher logs, Apache Spark para machine learning, MySQL para a facturação, etc. Estas ferramentas mergulham profundamente no vasto conjunto de dados do utilizador, extraindo insights valiosos que contribuem para a melhoria da experiência geral do streaming.",
+      "popularity": 2639.845,
+      "poster_path": "poster5_2_3",
+      "first_air_date": "2021-08-24",
+      "name": "La Casa de los Famosos",
+      "number_of_seasons": 4,
+      "vote_average": 8.8,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_2_4",
+      "genre_ids": [
+        "Tecnologia",
+        "Arquitetura",
+        "Frontend"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.2.4 - Arquitetura do cliente (frontend)",
+      "overview": "Ao projetar a arquitetura do cliente, a Netflix enfrentou um desafio significativo: a plataforma teria que atender a uma variedade de dispositivos, cada um com diferentes tamanhos e proporções de ecrã e diferentes capacidades de armazenamento. Desde smartphones e desktops a smart TVs, a experiência do utilizador precisava ser consistente, rápida e otimizada em todos os dispositivos. Além disso, a Netflix teve que garantir que o seu frontend fosse eficiente em termos de armazenamento, para não sobrecarregar dispositivos com espaço de armazenamento limitado. Eis alguns aspectos que caracterizam a sua arquitetura frontend:\n\nArquitetura baseada em componentes:\nNo cerne da estrutura frontend da Netflix, encontra-se uma arquitetura baseada em componentes, onde os elementos da interface são encapsulados em módulos reutilizáveis. Esta solução não só melhora a manutenção e reutilização de código, mas também facilita o desenvolvimento e iteração rápida.\n\nFramework: Ao analisar as tecnologias adotadas por grandes empresas, é interessante notar que a Netflix optou por usar o React.js, uma biblioteca JavaScript open source mantida pelo Facebook. O React.js é conhecido pela sua capacidade de criar interfaces de utilizador eficientes e responsivas, graças à sua arquitetura interna otimizada.\n\nRenderização do lado do servidor (Server-Side Rendering - SSR): Embora a maior parte da renderização ocorra no lado do cliente, a Netflix certos conteúdos ou páginas usam renderização do lado do servidor para melhorar o desempenho inicial da página. Com o SSR, a primeira renderização da página é feita no servidor e enviada para o cliente como HTML estático, o que reduz o tempo de carregamento inicial e melhora o SEO (search engine optimization).\n\nLazy Loading: A Netflix utiliza o lazy loading para carregar recursos, como imagens e componentes, apenas quando eles são necessários. Isso ajuda a reduzir o tempo de carregamento inicial da página, carregando apenas o conteúdo visível no ecrã e adiando o carregamento dos recursos abaixo da página até que o utilizador faça scroll.\n\nDesign Responsivo:O frontend da Netflix é meticulosamente concebido para ser responsivo em diversos dispositivos e tamanhos de ecrã. Ao adotar princípios de design responsivo, a Netflix garante uma experiência consistente e otimizada, independentemente do dispositivo utilizado para aceder à plataforma.\n\nCache e Armazenamento Local: A Netflix utiliza técnicas de cache e armazenamento local no navegador para armazenar dados e recursos temporários, reduzindo a necessidade de solicitações adicionais ao servidor e melhorando a velocidade de carregamento de páginas subsequentes.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_2_4",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 7.9,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_3_1",
+      "genre_ids": [
+        "Tecnologia",
+        "Compressão",
+        "Codec"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.3.1 - Desafios Sobre a Qualidade",
+      "overview": "A codificação de vídeo é uma das partes mais cruciais do serviço streaming. É o que permite à Netflix a entrega eficiente de conteúdo de alta qualidade aos seus milhões de utilizadores por todo o mundo. Em particular, a compressão é uma peça fundamental da codificação, capacitando a empresa de fornecer conteúdo que, de outra forma, consumiria uma quantidade considerável de largura de banda.\n\nCom a crescente procura por conteúdo em alta resolução, como filmes em 4K, a Netflix enfrenta desafios em relação à largura de banda necessária para transmitir este tipo de conteúdo de maneira eficiente. A resolução mais alta resulta em ficheiros de vídeo consideravelmente maiores, o que pode sobrecarregar redes de internet convencionais e resultar em tempos de carregamento mais longos para os utilizadores.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_3_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 7.5,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_3_2",
+      "genre_ids": [
+        "Tecnologia",
+        "Compressão",
+        "Codec"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.3.2 - Compressão Vídeo e Áudio",
+      "overview": "Para lidar com os desafios mencionados, a partir de 2020,  a Netflix começou a adotar o codec de vídeo AV1 para compressão. É um formato de codificação de vídeo criado em 2018 pela Alliance of Open Media (OAMedia) da qual a Netflix faz parte. Este novo codec oferece melhor eficiência de compressão em comparação com os padrões anteriores (H.264 e VP9).\n\nO AV1 consegue reduzir o tamanho do ficheiro de vídeo em até 30% sem comprometer a qualidade do vídeo, o que é crucial para a transmissão de conteúdo em alta resolução, como 4K. Isso significa que os utilizadores podem desfrutar de vídeos de alta qualidade com menos dados, o que é especialmente útil para aqueles com conexões de internet limitadas ou instáveis.\nAlém disso, o AV1 é open source, o que significa que ele pode ser usado gratuitamente por qualquer pessoa ou organização. Isso contrasta com outros codecs de vídeo, como o H.264 e o H.265, que exigem o pagamento de royalties.\n\nEm relação ao áudio, a Netflix utiliza diferentes codecs de áudio dependendo do dispositivo e da qualidade do áudio, por exemplo para filmes/séries que suportam som surround 5.1 é usado Dolby Digital Plus (também conhecido por Enhanced AC-3) mas se por outro lado, o equipamento do utilizador é um dispositivo móvel android, então o codec escolhido passa a ser xHE-AAC, que é um codec da família MPEG-AAC, que segundo a empresa que o criou, a Fraunhofer IIS [1], ‘oferece qualidade de áudio melhorada em bitrates estéreo de 12 Kbps a 500 Kbps ou acima, permitindo streaming adaptativo’.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_3_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 7.8,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_3_3",
+      "genre_ids": [
+        "Tecnologia",
+        "Compressão",
+        "Codec"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.3.3 - Adaptive Bitrate Streaming (ABR)",
+      "overview": "O ABR é utilizado para optimizar a qualidade do streaming de vídeo com base na velocidade da internet do utilizador. Funciona dividindo o vídeo em pequenos segmentos de alguns segundos cada. Cada segmento é então codificado em várias taxas de bits diferentes, correspondendo a diferentes níveis de qualidade. Quando um vídeo começa a ser reproduzido, o ABR seleciona a taxa de bits que melhor corresponde à largura de banda atual do utilizador.\nSe a largura de banda mudar durante a reprodução (por exemplo, se a conexão à internet ficar mais lenta), o ABR ajusta a taxa de bits do próximo segmento de vídeo de acordo, ou seja, quando a largura de banda é alta, o ABR aumenta a qualidade do vídeo. Quando a largura de banda é baixa, o ABR diminui a qualidade do vídeo para evitar buffering.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_3_3",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 6.9,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_3_4",
+      "genre_ids": [
+        "Tecnologia",
+        "Compressão",
+        "Codec"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.3.4 - HDR-VMAF",
+      "overview": "High Dynamic Range Video Multimethod Assessment Fusion (HDR-VMAF) é uma medida de qualidade de vídeo desenvolvida pela Netflix para avaliar a percepção da qualidade do vídeo HDR. O HDR-VMAF considera vários fatores, como contraste, cor, brilho e detalhes, para calcular uma pontuação que reflete a qualidade percebida do vídeo. A avaliação é realizada durante o processo de codificação do vídeo. Antes de um vídeo ser disponibilizado para streaming, ele é codificado em vários níveis de qualidade. Durante este processo, o HDR-VMAF é usado para avaliar a qualidade de cada nível de codificação. Isso permite à Netflix escolher as definições de codificação que oferecem a melhor qualidade de vídeo para uma determinada taxa de bits. Além disso, o HDR-VMAF também é usado para monitorizar a qualidade do vídeo após a codificação, para garantir que a qualidade do vídeo não seja comprometida por problemas de codificação ou transmissão.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_3_4",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 7.1,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_4_1",
+      "genre_ids": [
+        "Tecnologia",
+        "Dados"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.4.1 - Recomendações Personalizadas",
+      "overview": "Mais de 80% do conteúdo que os utilizadores consomem na Netflix é influenciado pelas recomendações que a Netflix fornece. Portanto é notório que esta ferramenta é extremamente importante para conseguir reter os subscritores durante o mais tempo possível. Por isso, recorre a machine learning para fazer essas recomendações, usando um sistema híbrido de filtragem colaborativa e filtragem baseada em conteúdo. A filtragem colaborativa prevê o interesse de um utilizador recolhendo preferências de muitos utilizadores, enquanto a filtragem baseada em conteúdo usa as propriedades específicas dos itens para recomendar itens adicionais semelhantes ao que o utilizador gosta. O sistema também considera fatores como a hora do dia, os dispositivos nos quais os utilizadores estão visualizar a Netflix e o tempo de visualização.\nOs dados que alimentam este algoritmo de recomendação são multifacetados. Inclui o comportamento do utilizador, como o que os utilizadores vêem, quando vêem, com que frequência vêem e quão rapidamente vêem uma nova temporada após a estreia. As classificações dos utilizadores em programas e filmes são outro forte indicador de preferências. O histórico de visualizações de um utilizador ao longo do tempo ajuda a fornecer insights sobre a mudança de preferências. A Netflix também usa metadados sobre os próprios filmes e séries, como género, actores, ano de estreia, etc.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_4_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 5.9,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop5_4_2",
+      "genre_ids": [
+        "Tecnologia",
+        "Dados"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "5.4.2 - Medidas de segurança",
+      "overview": "A Netflix emprega uma abordagem abrangente e em constante evolução para proteger o seu conteúdo da pirataria tendo já implementado uma variedade de estratégias e tecnologias para proteger o seu conteúdo digital de distribuição não autorizada e pirataria. Uma das principais tecnologias utilizadas é a Gestão de Direitos Digitais (DRM), que controla o uso e a distribuição de conteúdo digital. Por exemplo, a aplicação móvel da Netflix permite aos utilizadores descarregar conteúdo selecionado para visualização offline. Este conteúdo descarregado é encriptado com DRM, tornando-o “impossível” de reproduzir em dispositivos ou leitores de media não autorizados. Para os utilizadores autorizados, a ‘chave de encriptação’ e a ‘informação de direito de uso’ são transmitidas separadamente do conteúdo.\n\nAlém do DRM, a Netflix utiliza marca d’água dinâmica, uma técnica que incorpora marcas d’água invisíveis e únicas nos ficheiros de conteúdo. Estas marcas d’água ajudam a rastrear a origem da fuga do conteúdo e dissuadir potenciais piratas. Para melhorar ainda mais a segurança do seu conteúdo, a Netflix impede a reprodução em dispositivos com root, que têm o potencial de contornar as proteções DRM.\n\nOutra suposta medida é a limitação do número de dispositivos que podem transmitir conteúdo simultaneamente, prevenindo assim o acesso não autorizado e a partilha de passwords. Como parte dos seus esforços contínuos para combater a pirataria, a Netflix também começou a oferecer pacotes adicionais que permitem aos utilizadores adicionar visualizadores às suas subscrições a um custo reduzido, com o objetivo de controlar a prática generalizada de partilha de passwords.\n\nEm fevereiro de 2023, a Netflix implementou novas regras para combater a partilha de contas. Os utilizadores agora têm que identificar a morada principal da conta e a Netflix usa o endereço IP público, os identificadores de dispositivos e a atividade da conta para estimar a rede ou equipamento que mais utiliza o serviço.",
+      "popularity": 4284.064,
+      "poster_path": "poster5_4_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 4,
+      "vote_average": 6.2,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop1_1",
+      "genre_ids": [
+        "Contexto",
+        "Background"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "1.1 - A ascenção da Netflix",
+      "overview": "A Netflix, fundada em 1997 por Reed Hastings e Marc Randolph, começou como um serviço de aluguer de DVDs por correio, uma alternativa ao modelo tradicional de clubes de vídeo. No entanto, a verdadeira revolução veio em 2007, quando a Netflix introduziu o serviço de streaming de vídeo, permitindo aos utilizadores assistir a filmes e séries de televisão instantaneamente nos seus computadores pessoais. Esta mudança para o streaming online foi um marco na indústria do entretenimento. A Netflix não só eliminou a necessidade de ir a uma loja física para alugar um filme, mas também removeu a espera pelo correio e as multas por atraso da devolução. Além disso, ofereceu aos utilizadores a conveniência de poder assistir ao conteúdo desejado a qualquer momento e em qualquer lugar. Em 2013, a Netflix deu um passo adiante e começou a produzir o seu próprio conteúdo original, começando com a série 'House of Cards'. Esta estratégia provou ser bem-sucedida, com muitos dos seus programas originais ganhando aclamação da crítica e do público.\n\nAo longo dos anos, a Netflix continuou a expandir-se globalmente, entrando em novos mercados e alcançando públicos em todo o mundo. Esta expansão não se limitou apenas à geografia, mas também ao tipo de conteúdo oferecido. A Netflix começou a investir numa variedade de géneros, desde dramas e comédias até documentários e programas de realidade, para atender a uma ampla gama de preferências do público.\n\nHoje, a Netflix é mais do que apenas uma plataforma de streaming - é uma produtora de conteúdo, uma distribuidora e uma influenciadora na indústria do entretenimento. A sua capacidade de produzir conteúdo de alta qualidade que ressoa com o público em todo o mundo solidificou a sua posição como uma das principais forças na indústria do entretenimento.",
+      "popularity": 4284.064,
+      "poster_path": "poster1_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 8.3,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop1_2",
+      "genre_ids": [
+        "Economia",
+        "Investimentos",
+        "Estratégia Empresarial"
+      ],
+      "id": 2,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "1.2 - Mercado e Concorrência",
+      "overview": "O sucesso da Netflix ao longo da última década tem sido notável e indiscutível. A empresa revolucionou a forma como consumimos entretenimento, tornando-se uma força dominante no setor do streaming. Este sucesso não passou despercebido, levando a que outras grandes indústrias do entretenimento também embarquem no negócio do streaming.\n\nOs principais concorrentes da Netflix hoje em dia já incluem a HBO, Paramount, Hulu, WarnerMedia, Fox e a Disney. Além dessas, outras plataformas de streaming como Amazon Prime Video, Hulu, Crunchyroll, Apple TV+, Twitch e Crackle também são considerados grandes concorrentes.\nCada um desses concorrentes oferece uma variedade de conteúdos, desde filmes e séries até documentários e conteúdos originais, muitos dos quais competem diretamente com as ofertas da Netflix, para além de que muitos desses concorrentes têm recursos financeiros significativos e investem fortemente em conteúdo original e exclusivo para atrair e reter subscritores. De acordo com um estudo da consultora Ampere Analysis, a quota de mercado da Netflix nos Estados Unidos caiu 31% devido ao avanço desses novos concorrentes [1].\n\nAlém da concorrência direta, a Netflix também enfrenta concorrência indireta de plataformas como a Twitch e o YouTube que ganharam bastante terreno nas gerações mais jovens através de live streaming dos E-sports mais populares e outros criadores de conteúdo.\n\nAtualmente, o panorama da concorrência no mercado de streaming mudou e já é bastante intenso, com várias empresas disputando a atenção e a lealdade dos espectadores. A Netflix, com sua vasta biblioteca de conteúdo e presença global, continua sendo um player importante, mas deve continuar a evoluir para se manter à frente de seus concorrentes.",
+      "popularity": 4284.064,
+      "poster_path": "poster1_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 7.2,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop2_1",
+      "genre_ids": [
+        "Economia",
+        "Investimentos",
+        "Estratégia Empresarial"
+      ],
+      "id": 3,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "2.1 - Modelo de Negócios",
+      "overview": "A empresa ao longo da última década manteve quase sempre o mesmo modelo de negócio, oferecendo três planos de subscrição: Básico, Standard e Premium.\n\nO Plano Básico é o mais acessível, proporcionando acesso a filmes e séries de TV ilimitados em um dispositivo de cada vez em Definição Standard (SD). O Plano Standard permite streaming em dois dispositivos simultaneamente em Alta Definição (HD) quando disponível. O Plano Premium, sendo o mais caro, oferece streaming em quatro dispositivos de uma vez, com a opção de Alta Definição (HD) e Ultra Alta Definição (UHD) quando disponível.\n\n Para diversificar este modelo de negócio, recentemente, a Netflix começou a introduzir nalguns países, uma assinatura low-cost que inclui publicidade, que se espera que aumente a sua base de receita total. Outra estratégia de diversificação da sua monetização deu-se no 2º trimestre de 2023, quando a Netflix lançou na sua plataforma o compartilhamento pago. Este novo conceito exige que os membros que desejam compartilhar a sua conta com pessoas fora do seu agregado familiar comprem um slot de membro adicional.",
+      "popularity": 4284.064,
+      "poster_path": "poster2_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 8.3,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop2_2",
+      "genre_ids": [
+        "Economia",
+        "Investimentos",
+        "Estratégia Empresarial"
+      ],
+      "id": 4,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "es",
+      "original_name": "2.2 - Investimentos e Parcerias",
+      "overview": "Uma das principais estratégias que a Netflix adotou foi formar parcerias com grandes empresas de entretenimento para melhorar sua biblioteca audiovisual. Um exemplo notável é a sua colaboração com a Disney (antes de existir a Disney Plus), que permitiu à Netflix transmitir o conteúdo da Disney. Outra parceria foi com a Sony Pictures. Em 2022, estabeleceram um acordo de forma a que a Netflix lançasse os filmes do estúdio de maneira exclusiva nos serviços de streaming após a estreia no cinema.\n\nAlém das parcerias de conteúdo, a Netflix garantiu que o seu serviço seja amplamente acessível ao fazer parcerias com fabricantes de hardware como Sony, LG e Samsung. Estes fabricantes de smart TVs incorporam a Netflix como uma aplicação pré-instalada ou fornecem fácil acesso, aumentando assim a base de utilizadores da Netflix. Esta estratégia de tornar o serviço facilmente acessível tem sido complementada pelo envolvimento da Netflix em cross-promotions. Por exemplo, unindo-se à Coca-Cola para promover a terceira temporada de “Stranger Things”. Outras iniciativas semelhantes incluem a Baskin-Robbins e o Burger King, contribuindo  para a visibilidade da marca.\n Outra estratégia inovadora que a Netflix adotou foi a incorporação de “mini app games” dentro da sua plataforma. Estes jogos começaram por ser temáticos em torno dos seus filmes e séries originais, mas com o sucesso desta estratégia a Netflix acabou por apostar mais no mercado gaming e hoje em dia já oferece um catálogo muito maior, tanto na sua plataforma como na Apple Store e Google Play. Uma prova de como pretende investir fortemente neste mercado, para além das parcerias que já fez com os estúdios de jogos, também a própria Netflix já tem o seu próprio estúdio gamedev em Helsínquia,  Finlândia.",
+      "popularity": 2639.845,
+      "poster_path": "poster2_2",
+      "first_air_date": "2021-08-24",
+      "name": "La Casa de los Famosos",
+      "number_of_seasons": 2,
+      "vote_average": 5.8,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop3",
+      "genre_ids": [
+        "Sociedade",
+        "Tendências",
+        "Economia"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "3 - Impactos Sociais e Influência",
+      "overview": "Na última década, o surgimento das plataformas streaming transformou significativamente a forma como consumimos media, um fenómeno muitas vezes referido como o 'Efeito Netflix'. Este efeito não só mudou nossos hábitos de visualização, mas também teve um impacto profundo na cultura do consumidor.Antes da era do streaming, a programação de televisão era ditada pelas redes, e os espectadores tinham que sintonizar em horários específicos para assistir seus programas favoritos. A Netflix interrompeu este modelo ao oferecer conteúdo sob demanda, permitindo aos espectadores assistir o que querem, quando querem, levando a uma experiência de visualização mais personalizada.\n\nUma das mudanças no comportamento do consumidor trazidas pela Netflix é o surgimento da cultura de binge-watching. A capacidade de assistir a uma temporada inteira ou série de uma vez levou a uma cultura de binge-watching, onde os espectadores consomem horas de conteúdo de uma só vez.\nMas não é só no ecrã que a Netflix tem tido impacto na sociedade, a popularidade das suas séries já ditaram várias tendências ao longo dos anos nas mais variadas indústrias, desde disparar a vendas de conjuntos de xadrez[1] com o “Queen’s Gambit”; a influenciar a indústria da moda, viralizando certas roupas e acessórios que as personagens usam como foi o caso em 2020 de “Bridgerton” a aumentar a procura por laçarotes de cabelo ou como em 2022, na 4ª temporada de “Stranger Things”,  os fãs da série queriam também vestir a camisola e o casaco do “Hellfire Club” e mesmo nessa temporada voltou a trazer à ribalta músicas dos anos 80 ao topo das tabelas mundiais como por foi o caso de “Master of Puppets” dos Metallica ou de Kate Bush que viu um aumento de 9000% [1] de streams no Spotify com a sua música “Running up that Hill”, tendo esta música, hoje em dia, mais de mil milhões de streams.\n\nO alcance global da Netflix levou a um aumento no conteúdo internacional, quebrando barreiras geográficas e introduzindo os espectadores a uma gama diversificada de culturas e histórias como foi o caso de “La Casa de Papel” (série espanhola),  'Squid Game' (série Sul-Coreana), e até recentemente a série portuguesa 'Rabo de Peixe'.",
+      "popularity": 4284.064,
+      "poster_path": "poster3",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 1,
+      "vote_average": 9.1,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop4_1",
+      "genre_ids": [
+        "Sociedade",
+        "Estratégia Empresarial"
+      ],
+      "id": 2,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "4.1 - Adaptação ao Mercado Português",
+      "overview": "A Netflix chegou a Portugal quando cada vez mais pessoas já tinham pacotes que combinavam televisão paga e Internet. Este era também um mercado muito diferente dos EUA, onde a empresa tinha nascido, crescido e ainda fazia a maior parte do seu negócio.\n\nQuando a Netflix chegou a Portugal em 2015, enfrentou um mercado já saturado por serviços de TV a cabo e outras plataformas de streaming como a NPlay, lançada previamente pela NOS.\nSegundo dados da Autoridade Nacional de Comunicações, em 2015 [1],  77% dos agregados familiares em Portugal tinham no final do primeiro semestre um pacote de serviços. Eram 3,1 milhões de clientes, mais 13% do que na mesma altura de 2014. A grande maioria desses pacotes incluía televisão paga. O Netflix foi, assim, tanto um concorrente como um argumento de vendas para os operadores de telecomunicações.\nAo concorrer com algumas ofertas televisivas, como era o caso dos canais dedicados a séries e dos serviços de videoclube. As operadoras de comunicações também tinham redesenhado as suas ofertas televisivas: fizeram crescer o número e a especialização dos canais; acrescentaram funcionalidades que iam da gravação de conteúdos à possibilidade de recuar e avançar na programação; e começaram também a vender aos clientes a possibilidade de ver televisão noutros aparelhos.\n\nEntre os operadores de televisão, havia quem visse o Netflix como um aliado: a Vodafone estabeleceu um acordo com a Netflix em Portugal, para que os conteúdos desta plataforma ficassem disponíveis para os clientes Vodafone TV.  Para além destes acordos específicos para conseguir “furar” no mercado, a Netflix, até 2021, tinha um período grátis de 30 dias, conseguindo assim, cativar muitos clientes a pelo menos experimentarem a novidade.",
+      "popularity": 4284.064,
+      "poster_path": "poster4_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 7.7,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop4_2",
+      "genre_ids": [
+        "Sociedade",
+        "Tecnologia",
+        "Tendências"
+      ],
+      "id": 3,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "4.2 - Adesão e Desafios Locais",
+      "overview": "A Netflix tem experienciado uma adesão significativa em Portugal desde o seu lançamento em 2015. Com quase uma década de existência cá, já conseguiu, em média, aumentar a sua quota de mercado e chegar em torno de um milhão em subscrições simultâneas, sendo um dos fatores que também ajudou para manter os bons resultados foi a pandemia Covid-19 em 2020, que aumentou o número de subscritores devido ao confinamento geral. Entretanto, nos últimos anos, com o surgimento de outras empresas de entretenimento a entrarem também no negócio do serviço streaming, a Netflix começou a ter de dividir mercado em que outrora não tinha concorrência, iniciando assim a desaceleração do seu crescimento.\n\nUm dos principais desafios locais que a Netflix enfrenta neste país é a pirataria online, devido à impunidade e à falta de medidas eficazes para combater a pirataria online, permitiram que ao longo dos anos se enraizasse o hábito de muitos consumidores portugueses acederem a conteúdos protegidos por direitos de autor de forma ilegal.\n\nOutro desafio importante são as redes de partilha de contas, que é um fenómeno comum em Portugal, principalmente devido às diferenças económicas em relação a países como os Estados Unidos, em que o valor da subscrição (embora com uma ligeira discrepância) tem um diferente impacto na carteira ao final do mês. Muitos portugueses optam por partilhar as suas contas Netflix até mesmo dentro do mesmo perfil de utilizador para dividir os custos da subscrição. Embora em fevereiro de 2023, a Netflix tenha implementado novas regras para combater a partilha de contas, bypasses são sempre encontrados de forma que a famosa “corrida do gato e do rato” nunca acabe…",
+      "popularity": 4284.064,
+      "poster_path": "poster4_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 6.8,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop6_1",
+      "genre_ids": [
+        "Evolução Futura",
+        "Tendências"
+      ],
+      "id": 2,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "6.1 - Tendências e Inovações Planeadas",
+      "overview": "Em constante evolução do entretenimento digital, a Netflix, pioneira na indústria de streaming, continua a inovar e adaptar-se. Uma das tendências futuras que a Netflix provavelmente irá seguir é a expansão do modelo de subscrição com publicidade para os restantes países. Este modelo tem demonstrado resultados satisfatórios nos países-teste , permitindo à Netflix diversificar as suas fontes de rendimento e potencialmente atrair um público mais sensível ao preço. No entanto, esta nova tendência exige uma execução cuidadosa para equilibrar a experiência do utilizador com a introdução de anúncios.\n\nOutra aposta que veio a revelar-se um sucesso muito recentemente é a adaptação de desenhos animados e animes populares em séries live-action. Esta tendência capitaliza a nostalgia do público enquanto oferece uma nova visão sobre as histórias, como foi o caso de “Avatar: the last airbender” no início deste ano e também de One Piece em agosto do ano passado. Também recentemente, foi anunciado que a Netflix acordou pagar 5 mil milhões de dólares para obter os direitos de transmissão da World Wrestling Entertainment (WWE) [1] a partir de 2025, o que sugere que, tal como na indústria gaming, a Netflix pretende diversificar e expandir-se para outras áreas. Portanto, é razoável prever que esta parceria possa levar a inovações significativas e transformações no mundo do wrestling, à medida que a Netflix incorpora este novo conteúdo na sua plataforma de streaming.\n\nMas uma das mais surpreendentes revelações no último ano foram os planos para a Netflix inaugurar lojas físicas, chamadas de “Netflix Houses” [1], em 2025. Espera-se que essas lojas transcendam o modelo do retalho convencional, oferecendo aos clientes uma mistura única de experiências de compras e gastronomia. Estas lojas terão restaurantes temáticos e merchandise relacionados com os populares programas da Netflix. Além disso, contam também em incluir nessas lojas físicas entretenimento ao vivo e experiências imersivas baseadas nas séries de sucesso, sendo mais uma das razões que justificam o forte investimento na indústria gaming que têem feito nos últimos dois anos.",
+      "popularity": 4284.064,
+      "poster_path": "poster6_1",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 7.6,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdrop6_2",
+      "genre_ids": [
+        "Evolução Futura",
+        "Tendências"
+      ],
+      "id": 3,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "6.2 - Projeção Futura",
+      "overview": "As recentes jogadas da Netflix indicam uma visão clara para o futuro. A empresa não está apenas satisfeita em manter a sua posição atual, mas está ativamente em busca de redefinir o que significa ser uma plataforma global de entretenimento. Ao explorar territórios inexplorados e expandir os limites de seu modelo de negócios, a Netflix está a preparar o cenário para um futuro onde poderia potencialmente liderar em vários sectores de entretenimento. Esta abordagem proativa para a diversificação mostra um compromisso com o crescimento e a inovação que poderá redefinir o mundo do entretenimento nos próximos anos.",
+      "popularity": 4284.064,
+      "poster_path": "poster6_2",
+      "first_air_date": "2005-09-13",
+      "name": "Sobrenatural",
+      "number_of_seasons": 2,
+      "vote_average": 9.3,
+      "vote_count": 7180
+    },
+    {
+      "adult": false,
+      "backdrop_path": "backdropvideo",
+      "genre_ids": [
+        "Motivação",
+        "Contexto",
+        "Tutorial"
+      ],
+      "id": 1,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Video de Apresentação",
+      "overview": "Bem vindos ao meu site sobre a Netflix, carrega no botão 'ver' sempre que queiras explorar mais um capítulo.",
+      "popularity": 4284.064,
+      "poster_path": "postervideo",
+      "first_air_date": "2005-09-13",
+      "name": "Video de Apresentação",
+      "number_of_seasons": 1,
+      "vote_average": 6.4,
+      "vote_count": 7180
+    }
+  ],
+  "total_pages": 8431,
+  "total_results": 168615
+}
